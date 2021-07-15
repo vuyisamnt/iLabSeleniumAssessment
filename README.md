@@ -6,8 +6,9 @@ Steps for running the project
 3. Download and install Specflow on this location -> https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio
 4. Restart Visual Studio 2019
 5. Build the project
-6. Click on test View tab and select Test Explorer
-7. If the tests do no show on Test Explorer 
+6. Please update Extent Reporting path location to your ExtentReport location on line 37 in Hooks.cs
+7. Click on test View tab and select Test Explorer
+8. If the tests do no show on Test Explorer 
     - Go to project Solution Explorer
     - Right click on the project
     - Select Manage NuGet Packages
